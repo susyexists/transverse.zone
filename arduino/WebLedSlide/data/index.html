@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>TRANSVERSE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="topnav">
+        <h1>transverse.zone</h1>
+        <h2>Vibrating Panties</h2>
+    </div>
+    <div class="content">
+        <div class="card-grid">
+            <div class="card">
+                <p class="card-title">Front Top Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider1" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue1"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">Front Middle Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider2" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue2"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">Front Bottom Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider3" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue3"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">Back Bottom Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider4" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue4"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">Back Middle Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider5" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue5"></span> &percnt;</p>
+            </div>
+            <div class="card">
+                <p class="card-title">Back Top Vibration</p>
+                <p class="switch">
+                    <input type="range" onchange="updateSliderPWM(this)" id="slider6" min="0" max="100" step="1" value ="0" class="slider">
+                </p>
+                <p class="state">Brightness: <span id="sliderValue6"></span> &percnt;</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
